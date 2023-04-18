@@ -1,8 +1,13 @@
-import "@/styles/globals.css";
+// Bootstrap CSS imported
+import "bootstrap/dist/css/bootstrap.min.css";
 import type { AppProps } from "next/app";
+import Head from "next/head";
 // Google fonts
 import { Inter } from "next/font/google";
-import Head from "next/head";
+import { Container } from "react-bootstrap";
+
+import "@/styles/globals.css";
+import styles from "@/styles/App.module.css";
 
 // Applies the google font to this homepage
 const inter = Inter({ subsets: ["latin"] });
@@ -19,8 +24,10 @@ export default function App({ Component, pageProps }: AppProps) {
         {/* public/ favicon folder */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* this Components represents the single page */}
-      <Component {...pageProps} />
+      <Container className={styles.pageContainer}>
+        {/* this Components represents the single page */}
+        <Component {...pageProps} />
+      </Container>
     </div>
   );
 }
