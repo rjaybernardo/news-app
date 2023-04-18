@@ -1,7 +1,15 @@
-export default function Home() {
+import Head from "next/head";
+
+export default function BreakingNewsPage() {
   return (
     <>
-      <main>Hello World</main>
+      {/* Add meta data with title changed to */}
+      <Head>
+        <title key="title"> Breaking News - NextJS App</title>
+      </Head>
+      <main>
+        <h1>Breaking News</h1>
+      </main>
     </>
   );
 }

@@ -19,7 +19,12 @@ export default function App({ Component, pageProps }: AppProps) {
       {/* meta data */}
       <Head>
         <title>NextJs News App</title>
-        <meta name="description" content="New App NextJs with Typescript " />
+        <meta
+          name="description"
+          // key is added
+          key="description"
+          content="New App NextJs with Typescript "
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* public/ favicon folder */}
         <link rel="icon" href="/favicon.ico" />
