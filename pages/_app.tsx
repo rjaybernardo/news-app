@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <div className={inter.className}>
       {/* meta data */}
       <Head>
-        <title>NextJs News App</title>
+        <title key="title">NextJs News App</title>
         <meta
           name="description"
           // key is added
