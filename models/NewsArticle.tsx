@@ -9,6 +9,8 @@ export interface NewsArticle {
   content: string;
 }
 
+// recreate the response from newsapi
 export interface NewsResponse {
+  // newsArticle array from above
   articles: NewsArticle[];
 }
