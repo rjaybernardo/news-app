@@ -65,6 +65,8 @@ export const getStaticProps: GetStaticProps<CategoryNewsPageProps> = async ({
     // props contains an object key os newsArticles from BreakingNewsPage function
     // the value is newsResponse.articles - articles from response object
     props: { newsArticles: newsResponse.articles },
+    revalidate: 5 * 60,
+    // let error go to 500 page
   };
 };
 

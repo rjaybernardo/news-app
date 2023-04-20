@@ -33,6 +33,7 @@ export const getServerSideProps: GetServerSideProps<
     // the value is newsResponse.articles - articles from response object
     props: { newsArticles: newsResponse.articles },
   };
+  // let error go to 500 page
 };
 
 // renamed the component to BreakingNewsPage
