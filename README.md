@@ -1,26 +1,19 @@
-# News Project Website
+# NextJs with Typescript News Website
 
-Other dependencies
+<p align="center">
+![news-website-screeenshot](./news-webpage.png)
+</p>
 
-- bootstrap
-- react-bootstrap
-- nextjs-progressbar
-
-```bash
-npm i bootstrap react-bootstrap nextjs-progressbar
-```
-
-Move Google Fonts to \_app.tsx
-Move meta data to \_app.tsx
-Create App.module.css for \_app.tsx
-Import bootstrap css to \_app.tsx
-
-Create `pages/search.tsx` file
-
-Go to `https://newsapi.org/`
-
-- create account
-- get api key
-- create `.env.local` file and pastein the API key
-
-Create `models/NewsArticle.ts` from the root directory
+- This website is created using NectJS
+- Implementation of typescript
+- Use of NextJS pages structure
+- NextJS Routing
+- API Routes
+- Client Side Rendering
+- Use of Dynamic Routes
+- getStaticProps
+- getStaticPaths
+- Incremental Static Generation
+- 400/500 Error pages
+- Use of NextJS Progress Bar
+- Image Optimization using NextJS image component
