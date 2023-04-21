@@ -1,7 +1,7 @@
 # NextJs with Typescript News Website
 
 <p align="center">
-      <img width="600" height="200" src="./news-webpage.png">
+     ![newswebpage](./news-webpage.png)
 </p>
 
 - This website is created using NectJS
