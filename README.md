@@ -1,5 +1,7 @@
 # NextJs with Typescript News Website
 
+Deployed app to Vercel [Demo App](https://news-app-ten-theta.vercel.app/)
+
 <p align="center">
       <img width="600"  src="./news-webpage.png">
 </p>
@@ -17,3 +19,4 @@
 - 400/500 Error pages
 - Use of NextJS Progress Bar
 - Image Optimization using NextJS image component
+- Deploy to Vercel
