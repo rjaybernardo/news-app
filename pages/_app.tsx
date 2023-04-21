@@ -9,6 +9,7 @@ import { Container } from "react-bootstrap";
 import "@/styles/globals.css";
 import styles from "@/styles/App.module.css";
 import NavBar from "@/components/NavBar";
+import NextNProgress from "nextjs-progressbar";
 
 // Applies the google font to this homepage
 const inter = Inter({ subsets: ["latin"] });
@@ -30,6 +31,7 @@ export default function App({ Component, pageProps }: AppProps) {
                                 {/* public/ favicon folder */}
                                 <link rel="icon" href="/favicon.ico" />
                         </Head>
+                        <NextNProgress />
                         <NavBar />
                         <Container className={styles.pageContainer}>
                                 {/* this Components represents the single page */}
